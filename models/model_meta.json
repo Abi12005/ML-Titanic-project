@@ -1,0 +1,58 @@
+{
+  "best_model": "Gradient Boosting",
+  "accuracy": 0.7933,
+  "roc_auc": 0.8346,
+  "cv_mean": 0.8315,
+  "features": [
+    "Pclass",
+    "Sex",
+    "Age",
+    "SibSp",
+    "Parch",
+    "Fare",
+    "Embarked",
+    "Title",
+    "FamilySize",
+    "IsAlone",
+    "FarePerPerson",
+    "HasCabin",
+    "Age*Class"
+  ],
+  "all_results": {
+    "Logistic Regression": {
+      "accuracy": 0.8045,
+      "roc_auc": 0.8567,
+      "cv_mean": 0.816
+    },
+    "Decision Tree": {
+      "accuracy": 0.7933,
+      "roc_auc": 0.8329,
+      "cv_mean": 0.8175
+    },
+    "Random Forest": {
+      "accuracy": 0.7989,
+      "roc_auc": 0.853,
+      "cv_mean": 0.8301
+    },
+    "KNN": {
+      "accuracy": 0.7933,
+      "roc_auc": 0.8418,
+      "cv_mean": 0.8132
+    },
+    "SVM": {
+      "accuracy": 0.8101,
+      "roc_auc": 0.8407,
+      "cv_mean": 0.8272
+    },
+    "Naive Bayes": {
+      "accuracy": 0.7318,
+      "roc_auc": 0.8041,
+      "cv_mean": 0.7809
+    },
+    "Gradient Boosting": {
+      "accuracy": 0.7933,
+      "roc_auc": 0.8346,
+      "cv_mean": 0.8315
+    }
+  }
+}
